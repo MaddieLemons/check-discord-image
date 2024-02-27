@@ -21,11 +21,11 @@ function App() {
     <>
       <h1>Check for a Discord Link</h1>
       <p3>
-        Paste a link to a Discord-hosted image into the input below.
-        If your image was backed up, a url to the catbox image will appear
+        <div>Paste a link to a Discord-hosted image into the input below.</div>
+       <div>If your image was backed up, a url to the catbox image will appear</div>
 
-        For example, try pasting this into the input: https://cdn.discordapp.com/attachments/1049916667997724682/1110085703058067466/dddyb.png
-        
+        <div>For example, try pasting this into the input: https://cdn.discordapp.com/attachments/1049916667997724682/1110085703058067466/dddyb.png</div>
+
       </p3>
       <div className="card">
         <input onChange={e => checkChange(e)}>
